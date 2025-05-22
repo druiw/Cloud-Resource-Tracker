@@ -6,8 +6,11 @@ STORAGE_FILE = "storage.json"
 def load_resources():
     try:
         with open(STORAGE_FILE, 'r') as f:
-            return json.load(f)
-    except FileNotFoundError:
+            content = f.read()
+            print("Raw content of storage.json:", repr(content))  # 👀
+            return json.loads(content)
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print("Error loading JSON:", e)
         return []
 
 def save_resources(resources):
