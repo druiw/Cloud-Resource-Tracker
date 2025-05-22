@@ -23,7 +23,7 @@ python main.py list
 python main.py delete <resource-id>
 ```
 
-## 💻 Output in storage.json
+## 💻 Resource Creation Output in storage.json
 ![image](https://github.com/user-attachments/assets/5fb4cc7e-e940-408d-96ec-082fcf323966)
 
 
