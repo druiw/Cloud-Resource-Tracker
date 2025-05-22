@@ -1,0 +1,9 @@
+[
+  {
+    "id": "243f851e-ab97-4610-924e-f178aa6215fa",
+    "name": "web-server",
+    "rtype": "EC2",
+    "status": "running",
+    "created_at": "2025-05-22T11:38:12.090911"
+  }
+]

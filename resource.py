@@ -2,7 +2,7 @@ import uuid
 from datetime import datetime
 
 class Resource:
-    def __init(self, name, rtype):
+    def __init__(self, name, rtype):
         self.id = str(uuid.uuid4())
         self.name = name
         self.type = rtype
