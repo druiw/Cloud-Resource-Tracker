@@ -21,3 +21,7 @@ python main.py list
 
 # Delete a resource by ID
 python main.py delete <resource-id>
+
+# Expected output
+![image](https://github.com/user-attachments/assets/1919e724-5bc1-4525-8c93-87ad0b11f8bf)
+
