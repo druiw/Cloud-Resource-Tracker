@@ -10,7 +10,7 @@ A simple Python command line tool that simulates creating, listing, and deleting
 - Delete resources by ID
 - All data saved locally in `storage.json`
 
-## 🧱 Example Usage
+## ⌨️ Example Usage
 
 ```bash
 # Create a new EC2 instance
